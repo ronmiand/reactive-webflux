@@ -1,0 +1,45 @@
+:host {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    , "Segoe UI",Roboto,"Helvetica Neue",Arial
+    , "Noto Sans",sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #ffffff;
+}
+.content {
+    flex: 1;
+}
+.wrapper {
+    padding-bottom: 1rem;
+    position: relative;
+    min-height: 450px;
+}
+footer {
+    bottom: 0;
+    font-size: 12px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #ffffff;
+}
+
+.mo-content-loading{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: rgba(255, 255, 255, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
